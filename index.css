@@ -1,0 +1,253 @@
+body{
+        background-color: #dfdfdf;
+}
+
+.tales {
+  width: auto;
+}
+.carousel-inner{
+  width:auto;
+  max-height: 200px !important;
+}
+
+
+figurecaption {position: absolute;top: 36%;left: 41%;color: white;font-weight: bold;font-size: 24px;font-family: fangsong;letter-spacing: 1px;}
+
+.card {
+    border: none;
+    
+}
+.cards{  background-color: #dfdfdf;}
+.row {
+    --bs-gutter-x: 0.6rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.card-title {
+    margin-bottom: 0.2rem;
+}
+p {
+    margin-top: 4.4px;
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .8rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.h5, h5 {
+    font-size: 0.8rem;
+}
+i.fas.fa-star {
+    color:gold;
+}
+h5.CATEGORIES.mt-3 {
+    font-size: 25px;
+}
+h3.ULTIMOSREVIEWS{
+    font-size: 25px;
+}
+h4.dicastitl {
+    margin-bottom: 0px;
+}
+figcaption.figure-caption {
+    position: relative;
+    top: -65px;
+    left: 15px;
+    color: white;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 42px;
+    word-wrap: break-word;
+  
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 100% !important;
+}
+.thirdnavbar{background-color:#dfdfdf !important}
+button.btn.vertudo {
+    color: blue;
+}
+.row.m-auto {
+    margin-bottom: -16px !important;
+}
+.row.dicasenoti {
+    margin-bottom: -76px;
+}
+p.instrut {
+    position: relative;
+    bottom: 7px;
+    font-size: 11px;
+}
+
+h4.instrut {
+    font-size: 16px;
+}
+
+img.card-img-top.first.instrut {
+    height: 170px;
+}
+p.instrut {
+    width: 146px;
+    
+}
+figcaption.figure-caption {
+    position: relative;
+    top: -74px !important;
+    left: 8px;
+    color: white;
+}
+.container.PSICOLOGOS {
+    margin-top: -98px;
+}
+
+.container.lojas.despachantes.mb-5 {
+    margin-top: -77px;
+}
+.container.lojas.despachantes.mb-5 {
+    position: relative;
+    top: -98px;
+}
+
+@media (min-width: 1400px)
+{.containers {
+    max-width: 1480px;
+}
+.ult {
+    padding: 10px 10px 0px 10px;;
+}
+figcaption.figure-caption {
+    position: relative;
+    top: -74px !important;
+    left: 8px;
+    color: white;
+}
+
+}
+
+
+
+@media (min-width: 768px)
+{.card-img-top {
+    max-width: 100% !important;
+  
+}
+.ult {
+    padding: 5px 5px 0px 5px;;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0 1rem;
+}
+i.fas.fa-star {
+    font-size: 10px !important;
+}
+p {
+    margin-top: 4.4px;
+    margin-bottom: 0.5rem;
+    font-size: 8px;
+}
+h5.CATEGORIES.mt-3 {
+    font-size: 18px !important;
+}
+h3.ULTIMOSREVIEWS {
+    font-size: 18px !important;
+}
+h4.dicastitl {
+    font-size: 18px;
+    margin-top: 14px;
+}
+figcaption.figure-caption {
+    position: relative;
+    top: -62px;
+    left: 8px;
+    color: white;
+}
+figcaption.figure-caption.instrut {
+    top: -58px;
+}
+img.card-img-top.first.instrut {
+    height: 148px;
+}
+h4.instrut {
+    font-size: 12px;
+}
+p.instrut {
+    width: 103px;
+}
+
+}
+
+
+
+@media (max-width: 992px)
+{.card-img-top {
+    max-width: 160px;}
+
+    figurecaption {
+     position: absolute;
+    top: 24%;
+    left: 12%;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: fangsong;
+    letter-spacing: 1px;
+    }
+.ult {
+    padding: 5px 5px 0px 5px;;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0 .4rem;
+}
+i.fas.fa-star {
+    font-size: 5px;
+}
+p {
+    margin-top: 4.4px;
+    margin-bottom: 0.5rem;
+    font-size: 7px  !important;
+}
+.h5, h5 {
+    font-size: 0.5rem !important;
+}
+h5.CATEGORIES.mt-3 {
+    font-size: 12px !important;
+}
+h3.ULTIMOSREVIEWS {
+    font-size: 12px !important;
+}
+h4.dicastitl {
+    font-size: 10px;
+    margin-top: 28px;
+}
+figcaption.figure-caption {
+    position: relative;
+    top: -52px !important;
+    left: 6px;
+    color: white;
+}
+img.card-img-top.first.instrut {
+    height: 118px;
+}
+h4.instrut {
+    font-size: 10px;
+}
+p.instrut {
+    width: 70px;
+}
+
+}
